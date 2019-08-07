@@ -1,0 +1,1 @@
+This is a pretty useless beginning of a new repo where I just do stuff for fun.
