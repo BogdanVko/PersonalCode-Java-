@@ -5,8 +5,10 @@ import java.awt.event.ItemEvent;
 import java.util.ArrayList;
 
 public class Training {
-
+    //ArrayList that holds the digits of the number
     public static ArrayList<Long> separateNumbers = new ArrayList<>();
+
+    //Method that separates the digits of a number.
     public static void getSeparateNums(long num){
 
 
@@ -21,6 +23,8 @@ public class Training {
         }
 
     }
+
+    //Powering up the digits and summing them up.
     public static long powerUpAndSum(ArrayList<Long> list){
         long result = 0;
         for (Long number: separateNumbers) {
@@ -30,7 +34,7 @@ public class Training {
         return result;
     }
 
-
+    //Main helper method.
     public static ArrayList<Long> getNumbers(long N){
 
 
