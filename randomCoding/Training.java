@@ -58,7 +58,7 @@ public class Training {
     public static void main(String[] args){
         System.out.println("Hello World!");
 
-        System.out.println(getNumbers(5349523405986348L).toString());
+        System.out.println(getNumbers(5368L).toString());
     }
 
 }
